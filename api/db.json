@@ -1,0 +1,223 @@
+{
+    "flowers": [{
+        "id": 1,
+        "commonName": "Tulip",
+        "color": "orange"
+    }, {
+        "id": 2,
+        "commonName": "Sun flower",
+        "color": "yellow"
+    }, {
+        "id": 3,
+        "commonName": "Rose",
+        "color": "red"
+    }, {
+        "id": 4,
+        "commonName": "Daisy",
+        "color": "white"
+    }, {
+        "id": 5,
+        "commonName": "Carnation",
+        "color": "Pink"
+    }],
+    "retailers": [{
+        "id": 1,
+        "name": "Flowers r' Us",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "address": "321 Blossom dr"
+
+    }, {
+        "id": 2,
+        "name": "Bouquet for days",
+        "city": "Knoxville",
+        "state": "Tennessee",
+        "address": "987 Main st"
+
+    }, {
+        "id": 3,
+        "name": "Showers of Flowers",
+        "city": "Melbourne",
+        "state": "Florida",
+        "address": "915 West New Haven dr"
+
+    }, {
+        "id": 4,
+        "name": "Roses and Mimosas",
+        "city": "Old SayBrook",
+        "state": "Connecticut",
+        "address": "2 James Ct"
+
+    }, {
+        "id": 5,
+        "name": "Flower shop",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "address": "567 Sprout st"
+
+    }],
+    "distributors": [{
+        "id": 1,
+        "name": "Flower Distributors",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "address": "345 Riverside dr"
+
+    }, {
+        "id": 2,
+        "name": "Flowers inc",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "address": "369 Industrial way"
+
+    }, {
+        "id": 3,
+        "name": "Roses are red, inc",
+        "city": "Orlando",
+        "state": "Florida",
+        "address": "654 International dr"
+
+    }],
+    "nurseries": [{
+            "id": 1,
+            "name": "We grow flowers",
+            "city": "Orlando",
+            "state": "Florida",
+            "address": "123 Magic Kingdom way"
+
+        }, {
+            "id": 2,
+            "name": "budding trees",
+            "city": "Manchester",
+            "state": "Tennesse",
+            "address": "1415 Bushy Trail rd"
+        }, {
+            "id": 3,
+            "name": "grow Up",
+            "city": "Valdosta",
+            "state": "Georgia",
+            "address": "9825 Peaches dr"
+        }, {
+            "id": 4,
+            "name": "1-800-flowers",
+            "city": "Jackson",
+            "state": "Tennessee",
+            "address": "4789 Datsun st"
+        }, {
+            "id": 5,
+            "name": "Swamp Grown",
+            "city": "Gainsville",
+            "state": "Florida",
+            "address": "1 Gators dr"
+        }
+
+    ],
+    "nurseryFlowers": [{
+        "id": 1,
+        "flowerId": 1,
+        "nurseryId": 1
+    }, {
+        "id": 2,
+        "flowerId": 2,
+        "nurseryId": 1
+    }, {
+        "id": 3,
+        "flowerId": 3,
+        "nurseryId": 2
+    }, {
+        "id": 4,
+        "flowerId": 5,
+        "nurseryId": 2
+    }, {
+        "id": 5,
+        "flowerId": 1,
+        "nurseryId": 3
+    }, {
+        "id": 6,
+        "flowerId": 5,
+        "nurseryId": 3
+    }, {
+        "id": 7,
+        "flowerId": 2,
+        "nurseryId": 4
+    }, {
+        "id": 8,
+        "flowerId": 4,
+        "nurseryId": 4
+    }, {
+        "id": 9,
+        "flowerId": 4,
+        "nurseryId": 5
+    }, {
+        "id": 10,
+        "flowerId": 3,
+        "nurseryId": 5
+    }],
+    "nurseryCustomers": [{
+        "id": 1,
+        "distributorId": 1,
+        "nurseryId": 1
+    }, {
+        "id": 2,
+        "distributorId": 1,
+        "nurseryId": 2
+    }, {
+        "id": 3,
+        "distributorId": 2,
+        "nurseryId": 3
+    }, {
+        "id": 4,
+        "distributorId": 2,
+        "nurseryId": 4
+    }, {
+        "id": 5,
+        "distributorId": 3,
+        "nurseryId": 5
+    }, {
+        "id": 6,
+        "distributorId": 3,
+        "nurseryId": 1
+    }],
+    "distributorCustomers": [{
+        "id": 1,
+        "distributorId": 1,
+        "retailerId": 1
+    }, {
+        "id": 2,
+        "distributorId": 3,
+        "retailerId": 1
+    }, {
+        "id": 3,
+        "distributorId": 2,
+        "retailerId": 2
+    }, {
+        "id": 4,
+        "distributorId": 3,
+        "retailerId": 2
+    }, {
+        "id": 5,
+        "distributorId": 1,
+        "retailerId": 3
+    }, {
+        "id": 6,
+        "distributorId": 2,
+        "retailerId": 3
+    }, {
+        "id": 7,
+        "distributorId": 1,
+        "retailerId": 4
+    }, {
+        "id": 8,
+        "distributorId": 2,
+        "retailerId": 4
+    }, {
+        "id": 9,
+        "distributorId": 3,
+        "retailerId": 5
+    }, {
+        "id": 10,
+        "distributorId": 1,
+        "retailerId": 5
+    }]
+
+}

@@ -5,7 +5,7 @@ export const retailerComponent = (retailer, distributor, nursery, flower) => {
         <div class="retailer__address">Address: ${retailer.address} ${retailer.city}, ${retailer.state}</div>
         <div class="retailer__distibutors"> Supplied by: 
             <ul>
-                ${distributor.map(d=> `<li>${d.name} Supplied by: <ul>${nursery.map(n=> `<li>${n.name}</li>`)}</ul></li>`)}
+                ${distributor.map(d=> `<li>${d.name} Purchases from: <ul>${nursery.map(n=> `<li>${n.name}</li>`)}</ul></li>`)}
             </ul>
         </div>
         <div class="retailer__flowers">Flowers sold:

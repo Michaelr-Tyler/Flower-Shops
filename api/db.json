@@ -153,7 +153,7 @@
         "flowerId": 3,
         "nurseryId": 5
     }],
-    "nurseryCustomers": [{
+    "nurseryDistributors": [{
         "id": 1,
         "distributorId": 1,
         "nurseryId": 1
@@ -178,7 +178,7 @@
         "distributorId": 3,
         "nurseryId": 1
     }],
-    "distributorCustomers": [{
+    "distributorRetailers": [{
         "id": 1,
         "distributorId": 1,
         "retailerId": 1
